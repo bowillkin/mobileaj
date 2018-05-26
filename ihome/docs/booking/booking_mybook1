@@ -1,0 +1,22 @@
+
+### 准备提交订单接口
+
+#### request请求
+
+    GET /booking/mybook1/
+    
+##### params参数
+
+    house_id str 房屋编号
+    
+#### response响应
+
+##### 成功响应 :
+
+    {
+    'code':'200',
+    'msg':'请求成功',
+    'title':'xxxxxx',
+    'price':'xxxxx',
+    'house_index-image':'xxxxx'
+    }

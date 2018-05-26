@@ -1,0 +1,20 @@
+
+### 我的订单接口
+
+#### request请求
+
+    GET /booking/myorders/
+    
+##### params参数
+
+    
+    
+#### response响应
+
+##### 成功响应:
+
+    {
+    'code':'200',
+    'msg':'请求成功',
+    'myorderlist':'xxxxxx'
+    }
